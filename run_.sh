@@ -1,6 +1,6 @@
 #!/bin/sh
 python -u -c 'import torch; print(torch.__version__)'
-CODE_PATH=codes
+CODE_PATH=.
 DATA_PATH=data
 SAVE_PATH=models
 #The first four parameters must be provided
